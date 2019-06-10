@@ -20,7 +20,7 @@
         
         <div class="col-md-3">
           <div class="logo"> 
-            <img src="img/logo1.png">
+            <img alt="" src="img/logo1.png">
           </div>
         </div>
    
@@ -69,7 +69,7 @@
   
 </section>
 
-<section>
+<section id="about">
   <div class="container-fluid">
     <div class="row">
       <div class=" col-md-6">
@@ -89,7 +89,7 @@
 <div class="col-md-6 no_pad">
       <div class="pro_nas_img">
         
-       <img class="img_about" src="img/toprth.jpg">
+       <img alt="" class="img_about" src="img/toprth.jpg">
       </div>
     </div>
     </div>
@@ -99,25 +99,25 @@
 </section>
 
 
-<section class="gallery">
+<section id="work" class="gallery">
 	<div class="container-fluid">
 		<div class="row">
 
 			<div class="col-md-4 ">
 				<div class="img_box ">
-				<img src="img/gos2.jpg">
+				<img alt="" src="img/gos2.jpg">
 			</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="img_box ">
-				<img src="img/gos1.jpg">
+				<img alt="" src="img/gos1.jpg">
 			</div>
 			</div>
 			
 			<div class="col-md-4">
 				<div class="img_box ">
-				<img  src="img/gos3.jpg">
+				<img alt="" src="img/gos3.jpg">
 			</div>
 			</div>
 			
@@ -132,7 +132,7 @@
 
 
 
-   <section class="rezerv">
+   <section id="rezerv" class="rezerv">
    	<div class="container">
    		<div class="row">
    			<div class="offset-md-3 col-md-6">
@@ -146,23 +146,24 @@
           
           <br>
 
-
-          <label class="form_box"> <p class="form_p">Ваше Ім'я</p>
+          <p class="form_p" >Ваше Ім'я</p> 
+            <label class="form_box" >
+            
                 <input type="text" name="Your-name"
                  placeholder="Ім'я" required>      
             </label>
             
             <br>
-
-            <label class="form_box"><p class="form_p">Ваш Номер</p>
+            <p class="form_p">Ваш Номер</p>
+            <label class="form_box">
                 <input type="number" name="Your-number"
                  placeholder="+380(XX)-XXX-XXX" required>      
             </label>
 
             <br>
              
-
-           <label class="form_box"><p class="form_p">Ваш коментар</p>
+            <p class="form_p">Ваш коментар</p>
+           <label class="form_box">
                 <textarea name="message" placeholder=""></textarea>
             </label>
             
@@ -198,10 +199,15 @@
 </section>
    
 
-</section>
-</body>
+<div class="clock"> 
+</div>
 
-<div class="clock"></div>
+
+
+
+
+
+
 
  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -209,5 +215,5 @@
     <script src="js/index.js"></script>
 
 <script src="js/bootstrap/bootstrap.min.js"></script>
-
+</body>
 </html>
