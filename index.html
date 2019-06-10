@@ -5,7 +5,7 @@
     <title>Гостинна Хата</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
 </head>
@@ -58,7 +58,7 @@
      
       <div class="offset-md-3 col-md-6">
         <div class="top_txt">
-        <h1>Вас вітає Гостина Хата</h1>
+        <h1>Вас вітає Гостинна Хата</h1>
         <p>Ресторан з Українською атмосферою та хорошим настроєм</p>
         <button class="btn_top">Резервація</button>
     </div>
@@ -94,84 +94,120 @@
     </div>
     </div>
 
-
-
-
   </div>
-</div>
-</section>
 
-<section>
-  
-    
- 
 </section>
 
 
+<section class="gallery">
+	<div class="container-fluid">
+		<div class="row">
 
-   
+			<div class="col-md-4 ">
+				<div class="img_box ">
+				<img src="img/gos2.jpg">
+			</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="img_box ">
+				<img src="img/gos1.jpg">
+			</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="img_box ">
+				<img  src="img/gos3.jpg">
+			</div>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+
+
+
+
+   <section class="rezerv">
+   	<div class="container">
+   		<div class="row">
+   			<div class="offset-md-3 col-md-6">
+   				<div class="rez_top">
+
+   				<h3> Резервація </h3>
+   			</div>
+
+			<div class="rez_form">
+   				<form method="POST" action="https://formspree.io/lytuy65@gmail.com">
+          
+          <br>
+
+
+          <label class="form_box"> <p class="form_p">Ваше Ім'я</p>
+                <input type="text" name="Your-name"
+                 placeholder="Ім'я" required>      
+            </label>
+            
+            <br>
+
+            <label class="form_box"><p class="form_p">Ваш Номер</p>
+                <input type="number" name="Your-number"
+                 placeholder="+380(XX)-XXX-XXX" required>      
+            </label>
+
+            <br>
+             
+
+           <label class="form_box"><p class="form_p">Ваш коментар</p>
+                <textarea name="message" placeholder=""></textarea>
+            </label>
+            
+            <br>
+
+            <input class="form_btn" type="submit" value="Відправити">
+           
+        </form>
+
+   			</div>
+   			</div>
+   		</div>
+
+   	</div>
+   </section>
     
      
 
 
-<h3>Доставка</h3>
- <section id="Dostavka">
-    <div class="text"> 
-    <p>Оплатити замовлення Ви можете:
 
-готівкою;
-терміналом;
-онлайн банківською карткою.
-Доставка виконується безкоштовно при замовленні на мінімально вказану суму.
 
-Сума мінімального замовлення в межах міста – 200 грн.
 
-Сума мінімального замовлення за межі міста – 500 грн.
+ 
 
-Алкогольні напої доступні після замовлення будь-яких позицій їжі на сумму від 200 грн. 
-Оформити замовлення Ви можете на сайті або за номерами:
-
-МТС +380503737919
-
-Київстар +380673737919
-</p>
-</div>
+ 
+<section class="contact">
+	<div class="container">
+		<div class="row">
+			<h2>Контакти</h2> 
+		</div>
+		
+	</div>
 </section>
-
- <form method="POST" action="https://formspree.io/lytuy65@gmail.com">
-          
-          <br>
-          <label>Your Name: 
-                <input type="number" name="Your-number"
-                 placeholder="Your Number" required>      
-            </label>
-            
-            <br>
-            <label>Your Number: 
-                <input type="number" name="Your-number"
-                 placeholder="Your Number" required>      
-            </label>
-
-            <br>
-            <label>Your message:
-                <textarea name="message" placeholder="Message"></textarea>
-            </label>
-            
-            <br>
-            <input type="submit">
-            <input type="reset">
-        </form>
-
-  <h3>Про нас</h3>
-
-   <section id="About">
-   <div class="text">
-        <p>Вас вітає «Гостинна Хата" - найкращий ресторан української кухні у Львові!
-    Головний пріоритет – висока якість їжі та сервісу. Ми - команда професіоналів, яка щодня працює для Вас.
-    Ми використовуємо тільки якісні свіжі продукти та зручне упакування для страв.
-    </p> </div>
-
-         <span>Львів 2019</span>
+   
 
 </section>
 </body>
+
+<div class="clock"></div>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+</html>
